@@ -4,6 +4,11 @@ use warnings FATAL => 'all';
 use Module::Build;
 
 my $builder = Module::Build->new(
+    meta_merge => {
+        resources => {
+            repository => 'https://github.com/iafan/XML-Parser-Style-IxTree',
+        },
+    },
     module_name              => 'XML::Parser::Style::IxTree',
     license                  => 'perl',
     dist_author              => 'Igor Afanasyev <igor.afanasyev@gmail.com>',

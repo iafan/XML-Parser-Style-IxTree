@@ -80,9 +80,9 @@ This allows to parse and then reconstruct the original
 document with respect to original attribute ordering).
 
 Tree Parser on CPAN:
-http://search.cpan.org/~msergeant/XML-Parser/Parser/Style/Tree.pm
+https://metacpan.org/pod/XML::Parser::Style::Tree
 
 Tie::IxHash on CPAN:
-http://search.cpan.org/~chorny/Tie-IxHash/
+https://metacpan.org/release/Tie-IxHash
 
 =cut
